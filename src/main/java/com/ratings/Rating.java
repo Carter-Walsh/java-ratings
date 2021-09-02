@@ -7,7 +7,6 @@ import javax.persistence.*;
 public class Rating {
 
     @Id
-    @GeneratedValue
     @Column(name = "rating_id")
     private int id;
 

@@ -9,8 +9,8 @@
         <properties>
             <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
             <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://localhost:5432/ratings"/>
-            <property name="javax.persistence.jdbc.user" value="newuser"/>
-            <property name="javax.persistence.jdbc.password" value="password"/>
+            <property name="javax.persistence.jdbc.user" value="carterwalsh"/>
+            <property name="javax.persistence.jdbc.password" value="Love4sale"/>
 
             <property name = "hibernate.dialect" value="org.hibernate.dialect.PostgreSQL9Dialect" />
 

@@ -15,16 +15,12 @@ public class DataSeeder {
 
     private static SimpleDateFormat simpleDateFormat = new SimpleDateFormat("dd-MMM-yyyy");
 
-
     public static void seedData() throws Exception {
         factory = Persistence.createEntityManagerFactory("hibernatefundamentals.m04.ex07");
         seedUsers();
 
-        //TODO: seed movies and ratings
-
         factory.close();
     }
-
 
     private static void seedUsers() throws Exception {
         EntityManager entityManager = factory.createEntityManager();

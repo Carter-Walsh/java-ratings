@@ -6,5 +6,4 @@ public class Main {
         DataSeeder.seedData();
     }
 
-
 }
